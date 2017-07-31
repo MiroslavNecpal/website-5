@@ -1,0 +1,640 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    font-family: 'Montserrat', sans-serif;
+    width: 2050px;
+  	height: 1315px;
+  	background-color: #edf1f5;
+}
+
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.active {
+	border-bottom: 2px solid #806bf0;
+	padding-bottom: 9px;
+}
+
+header {
+	height: 175px;
+	width: inherit;
+}
+
+.left {
+	float: left;
+	width: 1300px;
+}
+.letter h1 {
+	float: left;
+}
+
+.letter h2 {
+	float: left;
+}
+
+.right {
+	float: right;
+	width: 130px;
+}
+
+.right h2 {
+	float: right;
+	width: 130px;
+	margin-top: 77px;
+	padding-bottom: 17px;
+	margin-right: 176px;
+}
+
+.pink-line {
+	float: right;
+	width: 135px;
+	height: 13px;
+	background-color: #ffe5e8;
+	margin-right: 171px;
+}
+
+header h1 {
+ 	width: 300px;
+ 	height: 55px;
+ 	font-size: 45px;
+ 	color: #434b52;
+ 	padding-left: 90px;
+ 	padding-top: 46px;
+ 	padding-bottom: 11px;
+ }
+
+header h2 {
+ 	height: 30px;
+ 	font-size: 25px;
+ 	font-weight: 300;
+ 	color: #434b52;
+ 	padding-left: 96px;
+ 	padding-bottom: 33px;
+	word-spacing: 26px;
+}
+
+.payment {
+	margin-left: 98px;
+	float: left;
+	height: 1080px;
+	width: 835px;
+ 	background-color: #f2f5f8;
+ 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.order {
+	float: right;
+	margin-right: 171px;
+	width: 835px;
+  	height: 1080px;
+  	background-color: #f2f5f8;
+  	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.payment-from, .order-number {
+ 	width: 835px;
+ 	height: 86px;
+ 	background-color: #f2f5f8;
+ 	box-shadow: inset 0 -1px 0 0 #dae0e7;
+}
+
+ .payment h3, .order h3 {
+ 	height: 27px;
+ 	font-size: 22px;
+ 	letter-spacing: 0.2px;
+ 	color: #434b52;
+ 	padding-left: 24px;
+ 	padding-top: 19px;
+ 	padding-bottom: 10px;
+}
+
+ul {
+	padding-left: 24px;
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+	height: 16px;
+	padding-right: 24px;
+}
+
+ul li a {
+	font-size: 13px;
+  	color: #434b52;
+}
+
+span {
+	font-size: 11px;
+ 	color: #ffffff;
+ 	background-color: #7d91aa;
+ 	padding: 1px 5px;
+ 	margin-left: 7px;
+ 	width: 14px;
+  	height: 14px;
+}
+
+.overview {
+	width: 787px;
+	height: 956px;
+ 	padding-left: 24px;
+ 	background-color: #edf1f5;
+}
+
+h4 {
+	height: 14px;
+	font-size: 11px;
+ 	color: #7d91aa;
+ 	padding-bottom: 13px;
+ 	padding-top: 14px;
+}
+
+.amount {
+	width: 787px;
+ 	height: 68px;
+	background-color: #7d91aa;
+}
+
+.amount div {
+	width: 183.66px;
+	height: 68px;
+	float: left;
+	padding-left: 14px;
+}
+
+.balance {
+	width: 180px !important;
+	float: right;
+	background-color: #8e9fb4;
+}
+
+.amount h6 {
+	margin: 0;
+	padding-top: 17px;
+	height: 14px;
+	font-size: 11px;
+  	color: #edf1f5;
+}
+
+.amount p {
+	height: 16px;
+  	font-size: 13px;
+  	color: #ffffff;
+ 	padding-top: 5px;
+ 	padding-bottom: 16px;
+}
+
+.main {
+	padding-left: 16px;
+	padding-right: 12px;
+	height: 851px;
+	background-color: #ffffff;
+}
+
+.overlay {
+	height: 258px;
+	border-bottom: solid 1px #dae0e7;
+}
+
+.name {
+	width: 759px;
+}
+
+.name div {
+	float: left;
+	height: 98px;
+}
+
+.name .material-icons {
+	font-size: 11px;
+	margin-left: 7px;
+	color: #7d91aa;
+	vertical-align: middle;
+}
+
+.holding, .invoice, .date {
+	height: 98px;
+}
+
+.holding {
+	width: 243px;
+}
+
+.invoice {
+	width: 256px;
+}
+
+.date {
+	width: 247px;
+}
+
+.address p, .name p, .name a {
+	height: 16px;
+  	font-size: 13px;
+  	color: #434b52;
+}
+
+.transaction div {
+	float: left;
+}
+
+.type, .trans-id, .receipt {
+	height: 147px;
+}
+
+.type {
+	width: 243px;
+}
+
+.trans-id {
+	width: 256px;
+}
+
+.receipt {
+	width: 247px;
+}
+
+.address {
+	height: 49px;
+}
+
+.adresa {
+	height: 258px;
+	border-bottom: solid 1px #dae0e7;
+}
+
+.address-status, .shipping-address {
+	height: 49px;
+}
+
+.address-status {
+	float: left;
+	width: 243px;
+}
+
+.address-line {
+	width: 243px;
+	float: left;
+}
+
+.state {
+	float: left;
+	width: 503px;
+}
+
+.town {
+	float: left;
+	width: 256px;
+}
+
+.zipcode {
+	float: left;
+	width: 247px;
+}
+
+.item-title {
+	float: left;
+	width: 243px;
+	height: 111px;
+}
+
+.item-id, .quantity, .item-url {
+	height: 49px;
+	float: left;
+}
+
+.item-id {
+	width: 256px;
+}
+
+.quantity {
+	width: 247px;
+}
+
+.item-url {
+	width: 503px;
+}
+
+.main h5, .address h5, .city h5, .addres-line h5, .shipping h5, .item-details h5 {
+	height: 14px;
+	font-size: 11px;
+	color: #7d91aa;
+	padding-bottom: 5px;
+	padding-top: 14px;
+}
+
+.collection-in p, .transaction p, .city p, .address-line p, .shipping p, .item-details p {
+	height: 16px;
+    font-size: 13px;
+ 	font-weight: 300;
+ 	color: #434b52;
+}
+
+.item-details {
+	border-bottom: solid 1px #dae0e7;
+	height: 111px;
+}
+
+.shipping {
+	height: 181px;
+}
+
+.shipping-handling {
+	float: left;
+	width: 243px;
+}
+
+.insurance {
+	float: left;
+	width: 256px;
+}
+
+.tax {
+	float: left;
+	width: 247px;
+}
+
+.footer {
+	width: 787px;
+	height: 34px;
+ 	background-color: #f2f5f8;
+ 	box-shadow: inset 0 1px 0 0 #dae0e7;
+}
+
+.created {
+	width: 344px;
+}
+
+.created, .update {
+	height: 34px;
+	float: left;
+	color: #7d91aa;
+}
+
+.created i {
+	float: left;
+	padding-top: 11.4px;
+	padding-bottom: 8.4px;
+	font-size: 17px;
+	margin-left: 0;
+	margin-right: 8.4px;
+	vertical-align: middle;
+}
+
+.update i {
+	float: left;
+	padding-top: 11.3px;
+	padding-bottom: 7px;
+	font-size: 17px;
+	margin-right: 9.8px;
+}
+
+.created p, .update p {
+	float: left;
+	height: 14px;
+    font-size: 11px;
+ 	padding-top: 12px;
+ 	padding-bottom: 8px;
+}
+
+.order span {
+	height: 16px;
+    font-size: 13px;
+ 	color: #fff;
+ 	padding: 4px 5px;
+ 	margin-left: 7px;
+ 	vertical-align: middle;
+}
+
+.order ul span {
+	font-size: 11px;
+	padding: 1px 5px;
+}
+
+.collection {
+	width: 759px;
+  	height: 74px;
+  	background-color: #fff;
+  	z-index: 999;
+  	padding: 13px 14px;
+ }
+
+.collection-in {
+	width: 759px;
+ 	height: 74px;
+ 	background-color: #edf1f5;
+}
+
+.collection-in p {
+	padding: 9px 12px;
+}
+
+.over {
+	height: 852px;
+	background-color: #f2f5f8;
+	background: url("line.jpg") no-repeat;
+	background-size: 1px 600px;
+	background-position: 19px 60px;
+}
+
+.total {
+	float: left;
+ 	padding-left: 7px;
+}
+
+.history .material-icons {
+	float: left;
+	margin-left: 0;
+	padding-left: 5px;
+	font-size: 17px;
+}
+
+.jan {
+	height: auto;
+	display: inline-block;
+}
+
+.ivana {
+	height: auto;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.anya {
+	height: auto;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.jan img, .ivana img, .anya img {
+	border-radius: 100%;
+	margin-right: 14px;
+	display: inline-block;
+	float: left;
+}
+
+.progress {
+	width: 705px;
+	display: inline-block;
+	background-color: #fff;
+	padding: 13px 14px;
+	float: left;
+}
+
+.progress h4 {
+	float: left;
+ 	font-size: 13px;
+ 	text-align: left;
+ 	color: #434b52;
+ 	padding-bottom: 0;
+ 	padding-top: 0;
+}
+
+.progress h6 {
+ 	font-size: 13px;
+ 	font-weight: 300;
+ 	color: #7d91aa;
+ 	float: left;
+ 	padding-top: 0;
+ 	padding-left: 7px;
+}
+
+.progress p {
+	font-size: 11px;
+ 	font-weight: 300;
+ 	color: #434b52;
+}
+
+.jan .progress span {
+	color: #fa4d64;
+	background-color: #ffe5e8;
+	padding-left: 0;
+	margin-left: 0;
+	height: 13px;
+ 	font-size: 11px;
+ 	font-weight: 300;
+}
+
+.ivana .progress span {
+	background-color: #e5f6d9;
+ 	font-size: 11px;
+ 	height: 13px;
+  	font-weight: 300;
+  	text-align: left;
+  	color: #4ebf00;
+  	line-height: 16px;
+}
+
+.post-progress {
+	height: 23px;
+}
+
+.jan p, .ivana p  {
+ 	font-size: 11px;
+ 	font-weight: 300;
+ 	color: #434b52;
+}
+
+.shipped, .order-was {
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.shipped img, .order-was img {
+	width: 17px;
+	height: 17px;
+	margin-right: 39px;
+	margin-left: 12px;
+	float: left;
+	border-radius: 100%;
+}
+
+.shipped h4, .order-was h4 {
+	height: 16px;
+ 	font-size: 13px;
+ 	color: #434b52;
+}
+
+.shipped h6, .order-was h6{
+	height: 16px;
+ 	font-size: 13px;
+ 	font-weight: 300;
+ 	color: #7d91aa;
+}
+
+.shipped .progress, .order-was .progress {
+	padding: 0;
+	height: 16px;
+	background-color: #edf1f5;
+}
+
+.invoice-note {
+	height: 43px;
+	background-color: #edf1f5;
+}
+
+.invoice-note h6 {
+	height: 14px;
+	font-size: 11px;
+  	color: #7d91aa;
+ 	padding-top: 14px;
+ 	font-size: 11px;
+ 	margin-top: 0;
+}
+
+.history {
+	height: 43px;
+	background-color: #f2f5f8;
+}
+
+.history {
+	padding-top: 16px;
+	padding-bottom: 13px;
+	height: 14px;
+  	font-size: 11px;
+ 	font-weight: 300;
+  	color: #7d91aa;
+}
+
+.history h6 {
+	float: left;
+	height: 14px;
+	font-size: 11px;
+	color: #7d91aa;
+	padding-top: 0;
+	background-color: #f2f5f8;
+}
+
+.history .material-icons {
+	width: 8.5px;
+ 	height: 5.2px;
+}
+
+
+
+
